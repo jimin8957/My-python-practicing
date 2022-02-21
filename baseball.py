@@ -52,8 +52,7 @@ strike = 0
 count = 0
 answer = generate_numbers()
 while strike != 3:
-    print(answer)
     strike, ball = get_score(take_guess(), answer)
     print("{}S {}B".format(strike, ball))
     count += 1
-print("축하합니다. {}만에 맞췄습니다.".format(count))
+print("축하합니다. {}번만에 맞췄습니다.".format(count))
