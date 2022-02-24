@@ -1,6 +1,3 @@
-import random
-
-
 def generate_numbers():
     numbers = []
     while len(numbers) < 3:

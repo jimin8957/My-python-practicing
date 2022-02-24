@@ -30,6 +30,8 @@ class Clock:
 # 1시 30분 48초인 시계 인스턴스 생성
 clock = Clock(1, 30, 48)
 
+print(clock)
+
 # 13초를 늘린다
 for i in range(13):
     clock.tick()
